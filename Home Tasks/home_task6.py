@@ -1,11 +1,9 @@
 my_number = int(input("Please, enter the number: "))
-
-i = 0
-res = 0
-while res < my_number:
-    res **= i
+two = 2
+i = 1
+while two <= my_number:
+    two *= 2
     i += 1
-    if res > my_number:
-        print (my_number, i - 1, res, sep=" -> ")
-else:
-    print (my_number, i - 1, res, sep=" -> ")
+print(my_number, "2 **", i-1, "=", two//2)
+
+    
